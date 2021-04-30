@@ -22,7 +22,7 @@ requirements:
     - eo-learn-core
     - numba >=0.43.1
     - numpy
-    - python
+    - python >=3.5
     - python-dateutil
     - scikit-image
     - scikit-learn
@@ -44,8 +44,8 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - mwilson8
-    - dcunn
     - oblute
     - rluria14
     - benhuff
