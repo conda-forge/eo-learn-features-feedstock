@@ -31,7 +31,6 @@ requirements:
 test:
   imports:
     - eolearn
-    - eolearn.features
 
 about:
   home: https://github.com/sentinel-hub/eo-learn
