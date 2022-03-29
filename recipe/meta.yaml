@@ -1,5 +1,5 @@
 {% set name = "eo-learn-features" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3e5d49a3ee70e7e6167af0890865cdd763838414e1de5734b50eada5edf18ed7
+  sha256: c6728627fa81735a0d27b9ae5f3bdf5316604fa99469d51b179339e509fec7b0
 
 build:
   noarch: python
@@ -17,14 +17,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.7
   run:
     - eo-learn-core
-    - numba >=0.43.1
+    - numba >=0.53.0
     - numpy
-    - python >=3.5
+    - python >=3.7
     - python-dateutil
-    - scikit-image
+    - scikit-image >=0.19.0
     - scikit-learn
     - scipy
 
