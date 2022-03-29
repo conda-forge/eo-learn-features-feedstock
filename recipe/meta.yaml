@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - eo-learn-core
+    - eo-learn-core >=1.0.0
     - numba >=0.53.0
     - numpy
     - python >=3.7
