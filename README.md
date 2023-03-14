@@ -1,11 +1,11 @@
-About eo-learn-features
-=======================
+About eo-learn-features-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eo-learn-features-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sentinel-hub/eo-learn
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/eo-learn-features-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of feature manipulation utilities and EOTasks
 
